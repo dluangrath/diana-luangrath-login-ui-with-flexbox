@@ -1,0 +1,47 @@
+html,body{
+    margin: 0px;
+    font-family: monospace;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-style: transparent;
+    border-width: 4px;
+    border-radius: 12px;
+    border-color: rgba(0,0,0,0.05);
+    background-color: #ffffff;
+    min-width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.19);
+}
+
+.signin-form {
+    width: 350px;
+    padding: 35px;
+    flex-direction: column;
+}
+
+.button-submit {
+    padding: 8px;
+    margin: 20px 5px 20px 5px;
+    border-style: solid; 
+    border-radius: 20px;
+    min-width: 50%;
+    color: #ffffff;
+    border-color: dodgerblue;
+    background-color: dodgerblue;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.19);
+
+
+   
+}
